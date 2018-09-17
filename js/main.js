@@ -3,10 +3,10 @@ var paper = $("#paper");
 var lid = $("#lid");
 var envelope = $("#envelope");
 
-formBtn.click(paperAnimation);
+$("#formSubmit").click(paperAnimation);
 
 function paperAnimation(){
-  
+
   $("#paper").addClass("hide-paper");
 
   setTimeout(function(){
